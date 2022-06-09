@@ -10,8 +10,9 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
-      - name: MicroSensor smells analysis.
+      - name: MicroSensor Smells Analysis.
         uses: edson-a-soares/microsensor@development
+
 
       - name: Gradle wrapper validation
         uses: gradle/wrapper-validation-action@v1
