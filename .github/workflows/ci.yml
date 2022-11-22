@@ -11,7 +11,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
 
-      # MicroSensor Analysis
+      # MicroSensor Analysis     
       - name: Perform static source code analysis
         uses: microsensorproject/microsensor@development
 
