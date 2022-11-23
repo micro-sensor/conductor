@@ -12,6 +12,7 @@ jobs:
           fetch-depth: 0
 
       # MicroSensor Analysis
+
       - name: Perform static source code analysis
         uses: microsensorproject/microsensor@development
 
